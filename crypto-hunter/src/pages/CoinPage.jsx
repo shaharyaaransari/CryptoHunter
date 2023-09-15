@@ -6,6 +6,7 @@ import { SingleCoin } from '../config/api'
 import { LinearProgress, Typography, makeStyles } from '@material-ui/core'
 
 import HTMLReactParser from 'html-react-parser'
+import CoinInfo from '../component/Banner/CoinInfo'
 
 function CoinPage() {
   const { id } = useParams()
@@ -127,7 +128,7 @@ setCoin(res.data)
                 </div>
              
        </div>
-      
+       <CoinInfo coin={coin}/>
    </div>
   )
 }
