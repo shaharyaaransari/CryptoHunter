@@ -1,5 +1,5 @@
 # CryptoHunter
-Deployed Link - https://glowgrab.netlify.app/
+Deployed Link - https://crypto-hunter-2023.netlify.app/
 
 ## What is CrytoHunter about?
 
