@@ -10,7 +10,7 @@ import {
 } from '@material-ui/core';
 import { Line } from 'react-chartjs-2/dist';
 import { chartDays } from '../../config/data';
-
+import Button  from '../Button';
 
 
 function CoinInfo({coin}) {
@@ -99,7 +99,15 @@ function CoinInfo({coin}) {
             justifyContent: "space-between",
             width: "100%"
           }}>
-            
+             {
+                chartDays.map((day => (
+                  <Button
+                    key={day.value}
+                   onclick={()=>setDays(day.value)}
+                      selected={ day.value ===days}
+                       >{day.label}</Button>
+                )))
+              }
           </div>
         </>
       )}
