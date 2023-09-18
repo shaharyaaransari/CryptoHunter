@@ -21,7 +21,8 @@ of the currency of the last 1 year. Users can see the trending cryptocurrency wh
 3. Axios
 4. Chart.js
 5. React-Router-dom
-Follow these steps to install and run the project locally:
+
+## Follow these steps to install and run the project locally:
 
 1. Clone the repository: `https://github.com/shaharyaaransari/CryptoHunter.git`
 2. Install dependencies: `npm install`
