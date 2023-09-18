@@ -32,6 +32,7 @@ const Header = () => {
       <AppBar color='transparent' position='static'>
         <Container>
           <Toolbar>
+            
               <Typography onClick={()=>navigate("/")} variant='h6' className={classes.title}>Crypto Hunter</Typography>
            
               <Select variant='outlined'   style={{
