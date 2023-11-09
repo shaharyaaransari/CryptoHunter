@@ -2,9 +2,8 @@
 Deployed Link - https://crypto-hunter-2023.netlify.app/
 
 ## What is CrytoHunter about?
-
-CrytoHunter is an online platform where users can see the Cryptocurrency  price at every day. And also see the history and performance 
-of the currency of the last 1 year. Users can see the trending cryptocurrency which is highly demanded of the world. 
+CryptoHunter is an online platform where users can view cryptocurrency prices daily. Additionally, users have access to the historical
+performance of currencies over the past year. Stay informed about trending cryptocurrencies that are in high demand globally.
 
 ## Features:-
 
